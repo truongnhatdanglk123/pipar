@@ -39,9 +39,9 @@
         layer_2 {
             display-name = "ngang";
             bindings = <
-&kp C_NEXT      &kp C_MUTE            &to 0
-&kp C_PAUSE     &kp LC(LA(NUMBER_2))  &kp LA(LC(M))
-&kp C_PREVIOUS  &kp LC(LA(NUMBER_1))  &kp LC(LA(L))
+&kp C_NEXT        &kp C_MUTE            &to 0
+&kp C_PLAY_PAUSE  &kp LC(LA(NUMBER_2))  &kp LA(LC(M))
+&kp C_PREVIOUS    &kp LC(LA(NUMBER_1))  &kp LC(LA(L))
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
